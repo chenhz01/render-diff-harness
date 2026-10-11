@@ -8,6 +8,8 @@ ship "HTML-to-video" pipelines, this is the missing `pytest --snapshot`.
 **Confidence: High (>=85%)** that exact-hash frame diffing catches real render
 regressions; the tolerance mode is **Medium (60-79%)** — see Limits.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Deterministic renderers (input -> MP4 as a pure function) make video output
